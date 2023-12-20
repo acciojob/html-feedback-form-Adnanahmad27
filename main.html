@@ -9,15 +9,15 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Feedback Form</h1>
-	<form>
-		<lebal for="name">Name : </lebal>
-		<input id="name" name="name" type="text" minlength="3" maxlength="50" required><br>
-		<lebal for="portfolio">Portfolio : </lebal>
-		<input id="portfolio" name="portfolio" type="url" required><br>
-		<lebal for="favColor">Favorite Color : </lebal>
-		<input id="favColor" name="favColor" type="color" ><br>
-		<lebal for="likeness">Likeness : </lebal>
-		<input id="likeness" name="likeness" type="range" min="1" max="100"><br>
+	<form action="submit_feedback" method="post">
+		<lebal for="name">Name:</lebal>
+		<input id="name" type="text" minlength="3" maxlength="50" required><br>
+		<lebal for="portfolio">Portfolio:</lebal>
+		<input id="portfolio" type="url" required><br>
+		<lebal for="favColor">Favorite Color:</lebal>
+		<input id="favColor" type="color" ><br>
+		<lebal for="likeness">Likeness:</lebal>
+		<input id="likeness" type="range" min="1" max="100"><br>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
